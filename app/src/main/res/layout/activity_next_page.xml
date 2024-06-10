@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nexts"
+    tools:context=".nextPage">
+
+    <ImageButton
+        android:id="@+id/nextS"
+        android:layout_width="48dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="312dp"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtW"
+        app:srcCompat="@drawable/right" />
+
+    <TextView
+        android:id="@+id/txtW"
+        android:layout_width="237dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginBottom="77dp"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/nextS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
